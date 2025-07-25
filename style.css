@@ -81,3 +81,60 @@
 .hero-title p{
     font-size: 20px;
 }
+/* ---------------------------------------Main-carts-section----------------------------------------- */
+.carts-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px 150px auto 150px;
+}
+.carts-title h2{
+    font-size: 36px;
+    margin: 20px 0;
+}
+.carts-title p{
+    font-size: 16px;
+    margin: 0;
+}
+/* ---------------------------------------carts------------------------------------------------- */
+
+.carts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 20px 150px;
+}
+
+.carts {
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
+.carts img {
+    width: 220px; 
+    height: 250px;
+}
+
+.carts h5 {
+    font-size: 18px;
+    margin: 12px 0 8px 0;
+}
+
+.carts p {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+     text-align: center;
+}
+
+.carts button {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 16px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
