@@ -1,0 +1,83 @@
+/* ---------------------------------------navbar------------------------------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px auto 150px;
+    font-size: 16px;
+    
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    color: #8987A1;
+}
+.black {
+    color: #252432;
+}
+
+.nav-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 18px 0 18px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    background-color: #FFFFFF ;
+}
+.cart-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.shopping-cart-icon{
+    width: 24px;
+    height: 24px;
+    background-image: url('shopping-cart-icon.png');
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* ---------------------------------------hero-section----------------------------------------- */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px 150px auto 150px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-image{
+    height: 355px;
+    width: 570px;
+    padding-top: 106px;
+    
+}
+.hero-section h1 p{
+    margin: 0;
+    padding-top: 162px;
+    padding-right: 570px;
+}
+.hero-title{
+    font-size: 45px;
+}
+.hero-title p{
+    font-size: 20px;
+}
